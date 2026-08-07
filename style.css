@@ -793,7 +793,7 @@
 .vid-media.is-playing::after{opacity:0;}
 
 .vid-play{
-  position:absolute; z-index:3; bottom:65px; left:18px; width:48px; height:48px; border-radius:50%; background:var(--mustard);
+  position:absolute; z-index:3; bottom:80px; left:18px; width:48px; height:48px; border-radius:50%; background:var(--mustard);
   display:flex; align-items:center; justify-content:center; transition:transform .2s ease, opacity .2s ease;
 }
 .vid-play svg{width:15px; height:15px; fill:var(--ink); margin-left:2px;}
@@ -802,7 +802,7 @@
 
 .vid-cap{position:absolute; bottom:0; left:0; right:0; padding:20px; z-index:2; transition:opacity .3s ease;}
 .vid-media.is-playing .vid-cap{opacity:0; pointer-events:none;}
-.vid-cap h3{font-size:17px; color:var(--paper); letter-spacing:0;}
+.vid-cap h3{font-size:25px; color:var(--paper); letter-spacing:0;}
 .vid-cap span{font-family:'Space Mono', monospace; font-size:11px; color:var(--mustard); letter-spacing:1px;}
 
 .vid-card::after{
