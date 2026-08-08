@@ -1421,6 +1421,7 @@
 
 /* ---------- Mobile Nav ---------- */
 @media (max-width:900px){
+  .torn.flips{margin-top:-1px;}
   .nav-cta{
     display:none;
   }
